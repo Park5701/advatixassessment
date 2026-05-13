@@ -1,0 +1,39 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+bin/
+
+# IntelliJ IDEA (in case you ever switch)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Spring Boot
+*.log
+spring.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets — NEVER commit these
+application-prod.properties
+application-local.properties
+*.env
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
